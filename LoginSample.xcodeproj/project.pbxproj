@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		326090412B0DF1A00081EBB9 /* LoginFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326090402B0DF1A00081EBB9 /* LoginFormViewModel.swift */; };
 		32A80CDB2B0CB8BF00786E3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A80CDA2B0CB8BF00786E3A /* AppDelegate.swift */; };
 		32A80CDD2B0CB8BF00786E3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A80CDC2B0CB8BF00786E3A /* SceneDelegate.swift */; };
-		32A80CDF2B0CB8BF00786E3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A80CDE2B0CB8BF00786E3A /* ViewController.swift */; };
+		32A80CDF2B0CB8BF00786E3A /* LoginFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A80CDE2B0CB8BF00786E3A /* LoginFormViewController.swift */; };
 		32A80CE22B0CB8BF00786E3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A80CE02B0CB8BF00786E3A /* Main.storyboard */; };
 		32A80CE42B0CB8C000786E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A80CE32B0CB8C000786E3A /* Assets.xcassets */; };
 		32A80CE72B0CB8C000786E3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A80CE52B0CB8C000786E3A /* LaunchScreen.storyboard */; };
 		32A80CF22B0CB8C000786E3A /* LoginSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A80CF12B0CB8C000786E3A /* LoginSampleTests.swift */; };
 		32A80CFC2B0CB8C000786E3A /* LoginSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A80CFB2B0CB8C000786E3A /* LoginSampleUITests.swift */; };
 		32A80CFE2B0CB8C000786E3A /* LoginSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A80CFD2B0CB8C000786E3A /* LoginSampleUITestsLaunchTests.swift */; };
+		32A80D0B2B0CCA2E00786E3A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A80D0A2B0CCA2E00786E3A /* User.swift */; };
+		32A80D0D2B0CCD4F00786E3A /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A80D0C2B0CCD4F00786E3A /* HomePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		326090402B0DF1A00081EBB9 /* LoginFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormViewModel.swift; sourceTree = "<group>"; };
 		32A80CD72B0CB8BF00786E3A /* LoginSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A80CDA2B0CB8BF00786E3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32A80CDC2B0CB8BF00786E3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32A80CDE2B0CB8BF00786E3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32A80CDE2B0CB8BF00786E3A /* LoginFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormViewController.swift; sourceTree = "<group>"; };
 		32A80CE12B0CB8BF00786E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32A80CE32B0CB8C000786E3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32A80CE62B0CB8C000786E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		32A80CF72B0CB8C000786E3A /* LoginSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A80CFB2B0CB8C000786E3A /* LoginSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSampleUITests.swift; sourceTree = "<group>"; };
 		32A80CFD2B0CB8C000786E3A /* LoginSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32A80D0A2B0CCA2E00786E3A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		32A80D0C2B0CCD4F00786E3A /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 		32A80CD92B0CB8BF00786E3A /* LoginSample */ = {
 			isa = PBXGroup;
 			children = (
+				326090402B0DF1A00081EBB9 /* LoginFormViewModel.swift */,
 				32A80CDA2B0CB8BF00786E3A /* AppDelegate.swift */,
 				32A80CDC2B0CB8BF00786E3A /* SceneDelegate.swift */,
-				32A80CDE2B0CB8BF00786E3A /* ViewController.swift */,
+				32A80CDE2B0CB8BF00786E3A /* LoginFormViewController.swift */,
+				32A80D0A2B0CCA2E00786E3A /* User.swift */,
 				32A80CE02B0CB8BF00786E3A /* Main.storyboard */,
+				32A80D0C2B0CCD4F00786E3A /* HomePageViewController.swift */,
 				32A80CE32B0CB8C000786E3A /* Assets.xcassets */,
 				32A80CE52B0CB8C000786E3A /* LaunchScreen.storyboard */,
 				32A80CE82B0CB8C000786E3A /* Info.plist */,
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32A80CDF2B0CB8BF00786E3A /* ViewController.swift in Sources */,
+				32A80D0B2B0CCA2E00786E3A /* User.swift in Sources */,
+				32A80CDF2B0CB8BF00786E3A /* LoginFormViewController.swift in Sources */,
 				32A80CDB2B0CB8BF00786E3A /* AppDelegate.swift in Sources */,
+				32A80D0D2B0CCD4F00786E3A /* HomePageViewController.swift in Sources */,
+				326090412B0DF1A00081EBB9 /* LoginFormViewModel.swift in Sources */,
 				32A80CDD2B0CB8BF00786E3A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
